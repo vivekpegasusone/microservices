@@ -6,8 +6,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/vivekpegasusone/spring-cloud-config-store
+          uri: https://github.com/vivekpegasusone/config-store.git
           search-paths:
-            - '*service'
+            - 'service-config/*service'
+          #uri: https://github.com/vivekpegasusone/spring-cloud-config-store
+          #search-paths:
+          #  - '*service'
           #username: vivekpegasusone
           #password:
