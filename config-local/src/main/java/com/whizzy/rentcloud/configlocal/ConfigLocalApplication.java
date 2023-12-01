@@ -8,8 +8,8 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @EnableConfigServer
 public class ConfigLocalApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ConfigLocalApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ConfigLocalApplication.class, args);
+    }
 
 }
