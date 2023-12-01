@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/tenant_master
+    username: root
+    password: root
+    driver-class: com.mysql.cj.jdbc.Driver
+
+
+
