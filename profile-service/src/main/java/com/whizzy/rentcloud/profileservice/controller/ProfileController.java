@@ -3,7 +3,6 @@ package com.whizzy.rentcloud.profileservice.controller;
 import com.whizzy.rentcloud.commons.model.Customer;
 import com.whizzy.rentcloud.profileservice.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
