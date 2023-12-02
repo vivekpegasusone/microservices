@@ -1,5 +1,18 @@
 spring:
+  profiles:
+    active: prod
   config:
     import: "optional:configserver:http://localhost:8191"
   application:
     name: profileservice
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+
+logging:
+  level:
+    root: INFO
+    org.hibernate: DEBUG
